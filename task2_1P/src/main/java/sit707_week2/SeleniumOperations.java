@@ -10,15 +10,6 @@ import java.io.File;
 import java.io.IOException;
 import org.apache.commons.io.FileUtils;
 
-/**
- * Automates registration page testing using Selenium WebDriver.
- * This script:
- * - Opens Officeworks registration page
- * - Locates input fields by ID
- * - Fills in personal information
- * - Clicks "Create Account"
- * - Takes a screenshot if validation fails
- */
 public class SeleniumOperations {
 
     public static void sleep(int sec) {
